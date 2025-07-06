@@ -86,7 +86,8 @@ aws cloudformation deploy \
 📸 Screenshots (Project in Action)
 
 ✅ S3 Upload Trigger  
-![S3 Upload Trigger](screenshot/S3 real world project.png)
+![S3 Upload Trigger](screenshot/S3 real world project.png)![S3 real world project](https://github.com/user-attachments/assets/ed3543d0-98d4-4a0e-a2c6-07304f2f3857)
+
 
 ✅ Lambda Triggered (CloudWatch Logs)  
 ![CloudWatch Logs](screenshot/cloudwatch 1.png)
