@@ -85,7 +85,7 @@ aws cloudformation deploy \
 
 ---
 
-📸 Screenshots (Project in Action)
+## 📸 Screenshots *(Project in Action)*
 
 ✅ S3 Upload Trigger
 
@@ -133,4 +133,4 @@ This project is licensed under the MIT License.
 🙌 Credits
 
 Built with ❤ by Gloria Ejike as a hands-on cloud engineering and serverless practice project.
-🌐 Visit my blog → GreenTech Guru Online
+🌐 Visit my blog → http://greentechguruonline.wordpress.com
