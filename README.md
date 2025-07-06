@@ -81,25 +81,19 @@ aws cloudformation deploy \
 5. Check your inbox! — You'll receive an email with extracted text from Textract
 
 
-
-
 ---
- 📸 Screenshots (Project in Action)
 
-✅ S3 Upload Trigger
+📸 Screenshots (Project in Action)
 
+✅ S3 Upload Trigger  
+![S3 Upload Trigger](screenshot/S3 real world project.png)
 
-✅ Lambda Triggered
+✅ Lambda Triggered (CloudWatch Logs)  
+![CloudWatch Logs](screenshot/cloudwatch 1.png)
 
+✅ DynamoDB Record Created  
+![DynamoDB Record Created](screenshot/DynamoDB  screenshoot.png)
 
-✅ DynamoDB Record Created
-
-
-<!-- You can add the rest below when ready:
-![CloudWatch Logs 1](cloudwatch%201.png)
-![CloudWatch Logs 2](cloudwatch%202.png)
--->
----
 
 ✅ Project Status & Future Enhancements
 
@@ -132,4 +126,4 @@ This project is licensed under the MIT License.
 🙌 Credits
 
 Built with ❤ by Gloria Ejike as a hands-on cloud engineering and serverless practice project.
-🌐 Visit my blog → http://greentechguruonline.wordpress.com
+🌐 Visit my blog → http://greentechguruonline.wordpress.com 
