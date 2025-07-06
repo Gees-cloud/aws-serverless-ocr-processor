@@ -1,63 +1,63 @@
 # 🧾 Serverless OCR Document Processor with AWS
 
-This project provides a fully serverless Optical Character Recognition (OCR) pipeline built entirely with AWS services and deployed using CloudFormation. It automates the extraction of text from documents uploaded to an S3 bucket using **Amazon Textract, stores the extracted content in **DynamoDB, and delivers a summary of the results via email using **Amazon SES—all orchestrated through **AWS Lambda.
+This project provides a *fully serverless Optical Character Recognition (OCR)* pipeline built entirely with AWS services and deployed using *CloudFormation. It automates the extraction of text from documents uploaded to an S3 bucket using **Amazon Textract, stores the extracted content in **DynamoDB, and delivers a summary of the results via email using **Amazon SES—all orchestrated through **AWS Lambda*.
 
 This solution is ideal for anyone looking to build document automation workflows, enhance AI-driven processes, or explore practical serverless architectures on AWS.
 
 ---
 
-## ✨ Features
+## ✨ *Features*
 
-- Automated OCR: Automatically extracts text from uploaded PDF, PNG, and JPG documents  
-- Scalable & Serverless: Built on AWS Lambda and S3 for a pay-as-you-go architecture  
-- Persistent Storage: Extracted text is stored in DynamoDB  
-- Email Notifications: Sends results via Amazon SES  
-- Infrastructure as Code: Entire stack deployed via CloudFormation  
-- Monitoring: CloudWatch integrated for visibility
-
----
-
-## 🚀 Tech Stack
-
-- Amazon S3 – for document storage and Lambda trigger  
-- AWS Lambda – to process uploaded files  
-- Amazon Textract – to extract text from images and PDFs  
-- Amazon DynamoDB – for storing OCR results  
-- Amazon SES – for emailing extracted text  
-- AWS CloudFormation – to provision all services  
-- AWS CloudWatch – for logging and monitoring
+- *Automated OCR:* Automatically extracts text from uploaded PDF, PNG, and JPG documents  
+- *Scalable & Serverless:* Built on AWS Lambda and S3 for a pay-as-you-go architecture  
+- *Persistent Storage:* Extracted text is stored in DynamoDB  
+- *Email Notifications:* Sends results via Amazon SES  
+- *Infrastructure as Code:* Entire stack deployed via CloudFormation  
+- *Monitoring:* CloudWatch integrated for visibility
 
 ---
 
-## 📂 Project Structure
+## 🚀 *Tech Stack*
+
+- *Amazon S3* – for document storage and Lambda trigger  
+- *AWS Lambda* – to process uploaded files  
+- *Amazon Textract* – to extract text from images and PDFs  
+- *Amazon DynamoDB* – for storing OCR results  
+- *Amazon SES* – for emailing extracted text  
+- *AWS CloudFormation* – to provision all services  
+- *AWS CloudWatch* – for logging and monitoring
+
+---
+
+## 📂 *Project Structure*
 
 . ├── template.yaml           # CloudFormation template defining the entire AWS stack └── README.md               # Project documentation and guide (this file)
 
 ---
 
-## ⚙ How It Works
+## ⚙ *How It Works*
 
-1. Upload a .pdf, .png, or .jpg to the input S3 bucket  
-2. S3 triggers the Lambda function  
-3. Lambda calls Textract to extract text  
-4. Stores result in DynamoDB  
-5. Sends email summary using SES  
-6. Logs the process in CloudWatch
+1. *Upload* a .pdf, .png, or .jpg to the input S3 bucket  
+2. *S3 triggers* the Lambda function  
+3. *Lambda calls* Textract to extract text  
+4. *Stores* result in DynamoDB  
+5. *Sends* email summary using SES  
+6. *Logs* the process in CloudWatch
 
 ---
 
-## 🔐 Prerequisites
+## 🔐 *Prerequisites*
 
 - AWS account  
 - AWS CLI configured  
-- Verified email in Amazon SES (sandbox mode)  
+- Verified email in *Amazon SES (sandbox mode)*  
 - IAM permissions to deploy stack + create services
 
 ---
 
-## 📦 Deploy This Project
+## 📦 *Deploy This Project*
 
-1. Clone the repo  
+1. *Clone the repo*  
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
@@ -93,14 +93,13 @@ aws cloudformation deploy \
 ✅ Lambda Triggered
 
 
-✅ CloudWatch Logs (Text Extracted)
-
-
-
 ✅ DynamoDB Record Created
 
 
-
+<!-- You can add the rest below when ready:
+![CloudWatch Logs 1](cloudwatch%201.png)
+![CloudWatch Logs 2](cloudwatch%202.png)
+-->
 ---
 
 ✅ Project Status & Future Enhancements
@@ -134,4 +133,4 @@ This project is licensed under the MIT License.
 🙌 Credits
 
 Built with ❤ by Gloria Ejike as a hands-on cloud engineering and serverless practice project.
-🌐 Visit my blog → http://greentechguruonline.wordpress.com
+🌐 Visit my blog → GreenTech Guru Online
