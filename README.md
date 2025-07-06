@@ -84,8 +84,7 @@ aws cloudformation deploy \
 
 
 ---
-
-## 📸 Screenshots *(Project in Action)*
+ 📸 Screenshots (Project in Action)
 
 ✅ S3 Upload Trigger
 
