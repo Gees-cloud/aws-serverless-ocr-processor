@@ -86,8 +86,9 @@ aws cloudformation deploy \
 📸 Screenshots (Project in Action)
 
 ✅ S3 Upload Trigger  
-- ![S3 Upload Trigger](https://raw.githubusercontent.com/Gees-cloud/aws-serverless-ocr-processor/main/S3%20real%20world%20project.png "S3 Upload Screenshot")
+- 
 
+![S3 real world project](https://github.com/user-attachments/assets/43ce2ac7-0e32-43e7-9cc7-3c199e46ac50)
 
 ✅ Lambda Triggered (CloudWatch Logs)  
 ![CloudWatch Logs](screenshot/cloudwatch 1.png)
@@ -104,6 +105,7 @@ Current Status:
 Potential Improvements:
 
 Add a frontend web UI for uploads
+
 
 NLP sentiment analysis via Amazon Comprehend
 
