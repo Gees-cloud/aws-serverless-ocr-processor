@@ -88,10 +88,12 @@ aws cloudformation deploy \
 ![S3 real world project](https://github.com/user-attachments/assets/43ce2ac7-0e32-43e7-9cc7-3c199e46ac50)
 
 ✅ Lambda Triggered (CloudWatch Logs)  
-![CloudWatch Logs](screenshot/cloudwatch 1.png)
+
+![cloudwatch 1](https://github.com/user-attachments/assets/5416f14d-1b49-47b9-b2ad-19a6a8597b72)
 
 ✅ DynamoDB Record Created  
-![DynamoDB Record Created](screenshot/DynamoDB  screenshoot.png)
+
+![DynamoDB screenshoot](https://github.com/user-attachments/assets/36d52ba6-ea3c-4962-8132-485fc51429ed)
 
 
 ✅ Project Status & Future Enhancements
