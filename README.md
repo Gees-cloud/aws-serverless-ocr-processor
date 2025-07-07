@@ -86,7 +86,7 @@ aws cloudformation deploy \
 📸 Screenshots (Project in Action)
 
 ✅ S3 Upload Trigger  
-https://raw.githubusercontent.com/Gees-cloud/aws-serverless-ocr-processor/main/S3%20real%20world%20project.png
+- ![S3 Upload Trigger](https://raw.githubusercontent.com/Gees-cloud/aws-serverless-ocr-processor/main/S3%20real%20world%20project.png "S3 Upload Screenshot")
 
 
 ✅ Lambda Triggered (CloudWatch Logs)  
