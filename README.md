@@ -85,7 +85,8 @@ aws cloudformation deploy \
 
 📸 Screenshots (Project in Action) 
 
-![S3 real world project](https://github.com/user-attachments/assets/43ce2ac7-0e32-43e7-9cc7-3c199e46ac50)
+
+![S3 real world project](https://github.com/user-attachments/assets/c20d4bae-ab88-4cb6-9fda-e8eaf1b07f74)
 
 ✅ Lambda Triggered (CloudWatch Logs)  
 
